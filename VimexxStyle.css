@@ -1,0 +1,265 @@
+* {
+	margin:0 ;
+	padding: 0 ;
+}
+
+<style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap'); </style>
+
+body {
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+	padding: 0px;
+}
+
+html {height: cover;}
+body {
+background-image: linear-gradient(to right, #000000, #260a44 );background-repeat:repeat;
+}
+
+
+.navbar-viwmaxx-logo {padding-top: 10px;
+	margin-left:90px;
+	width: 250px;
+}
+
+.search-holder { margin-top:10px;}
+
+form.example button {
+  float: right; margin-top:10.5px ;
+  padding-right: 7px; padding-left: 6px; padding-bottom: 2px;
+  margin-left: -3px;
+  background: none;
+  color: white;
+  font-size: 15px;
+  border: 1px solid; border-color: #white; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.viwmaxx-nav {
+	background-color: black;
+	height: 80px;padding-top:10px;
+	margin-bottom: 5px;
+}
+.menu-item { padding-top: 10px;
+	color: white;
+}
+
+.navbar-home a:hover {
+	font-size: 16px;
+	color: #651BB2;
+}
+
+
+.nav-menu {padding-top: 10px;
+	margin-right: 700px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.Avatar-profile {
+	color: white;
+	list-style: none;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-right: 80px;
+}
+
+.movie-title {
+	color: white; font-family: Poppins;
+	font-size: 75px;
+	position: absolute;
+	top: 250px; left: 80px;
+}
+
+.movie-blurb {
+	color: white; 
+	font-family: Poppins;
+	position: absolute;
+	top: 340px; left: 80px;
+}
+.more-info {
+	color: #0CC658;
+	position: absolute;
+	top: 105px;
+}
+.more-info:hover { color:#651BB2 }
+
+.rating {
+	margin-left: 170px;
+	position: absolute;
+	top: 442px;}
+.release-year {color: white;
+	margin-right: 30px;
+}
+.imdb-rate {color: white;
+	margin-left: 23px;}
+
+.imdb {margin-left: 220px;
+	position: absolute;
+	top: 447px
+
+}
+
+.Play-btn {
+	color: white; border-radius: 15px;
+	font-family: Poppins;height: 37px;
+	padding-top: 2px; padding-left: 6px;
+	border: solid white;
+	position: absolute;
+	top: 490px; left: 80px;}
+
+.Play-btn:hover {
+	background-color: #651BB2;
+	height: 37px;padding-top: 2px; padding-left: 6px;
+	border-color: #651BB2;
+}
+.later-btn {
+	color: white; 
+	font-family: Poppins;
+	background-color: #651BB2;
+	border: none;border-radius: 15px;
+	position: absolute;
+	top: 490px; left: 170px;}
+}
+.later-btn:active {
+	color: #651BB2;
+	border: solid white;
+	border-color: white;
+}
+
+.slides {
+    overflow: hidden; padding-top: 15px;
+    height: 750px;
+    padding-left: 0px; padding-right: 0px;
+}
+.line-break {
+	color: white;
+}
+.sidebar {padding-top: 15px;}
+.title {color: white;}
+.title:hover { color:yellow; text-decoration-line: none;}
+
+.top-trendz {padding-top: 15px;border:none; border-radius: 0px;}
+
+.trendz {height: 50px; background-image: linear-gradient(to right, #000000, #5a5a5a);}
+
+.trendz-title {color: white;
+padding-top: 7px}
+
+.checked {
+  color: orange;
+}
+.tab-title {margin: 0px;
+	color: white;
+}
+.card-para {
+	color: white;
+}
+.card-body { border:none }
+.bar-tab {background-image: linear-gradient(to right, #000000, #3B1172);
+}
+.bar-tab:hover {
+	background-image: linear-gradient(to right, #0C6026, #049B32);
+}
+.sidecard {border:none; border-radius: 0px;	
+}
+.sidecard:hover {
+	box-shadow: 0px 4px 8px 0 rgba(12, 232, 79, 0.9);
+}
+
+.top-rated { margin-left:180px; margin-top: -40px}
+.t-rated {color:white;margin-bottom:20px; margin-right: }
+.rate-star {margin-left: 7.5px}
+.see-all { color:grey; margin-left: 10px; padding-top: 5px}
+.see-all:hover { text-decoration-line:none;color:green }
+
+hr.solid {
+  border-top: 1px solid #bbb; width: 850px; margin-top:-18px;
+  margin-left: 420px;
+}
+
+.movie-cards {margin-top: 0px;
+}
+.Mov-card:hover {
+	opacity: 0.7; zoom: 100.5%;
+}
+.Mov-card {border: none; margin-top: 10px}
+
+hr.series {
+  border-top: 1px solid #bbb; width: 850px; margin-top:0px;
+  margin-left: 420px;
+}
+.pop-series {color: white;margin-left: 200px}
+.Series-cards {margin-top: 60px}
+.Series-card {border: none;margin-top: 10px}
+.Series-card:hover {
+	opacity: 0.7; zoom: 100.5%;
+}
+.pop-sug {margin-left: 200px;
+	color:white
+}
+
+
+.Sug-cards {margin-top: 60px; border:none; 
+padding-top: 60px; padding-bottom: 50px;
+background-color: #200344}
+.Sug-card {border: none; margin-bottom:10px; border-radius: 50px;margin-top: 10px;}
+.Sug-card:hover {
+	opacity: 0.7; zoom: 102%;
+}
+.S-ug {color:white;margin-bottom:20px; margin-left:3px}
+
+
+.footer-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer {
+	margin-bottom: 0px;
+	margin-top: 100px;
+	background-color: #000000;
+
+}
+
+.footer-col {
+	width: 25%;
+	padding: 55px;
+
+}
+
+ul {
+	list-style: none;
+	color: black;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: #9734ff;
+	font-weight: 500px;
+	position: relative;
+}
+
+.footer-col h4:: before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #9734ff;
+	height: 10px; box-sizing: border-box;
+	width: 50px;
+}
+.vim-p {color: #d3d2d3}
+.footer-col ul li a {
+	color: white;
+	display: block;
+	margin-bottom: 10px;
+	transition: all 0.3s ease;}
+	
+.footer-col ul li a:hover {
+	color: green; padding-left: 10px;
+	text-decoration-line: none;
+} 
